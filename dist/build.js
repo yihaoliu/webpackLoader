@@ -17243,7 +17243,7 @@ module.exports = function (obj) {
 obj || (obj = {});
 var __t, __p = '';
 with (obj) {
-__p += '<div>1111</div>\r\n<div>1111</div>loader has worked!';
+__p += '<div>hello</div>\r\n<div>hello</div>';
 
 }
 return __p
@@ -17257,7 +17257,7 @@ module.exports = function (obj) {
 obj || (obj = {});
 var __t, __p = '';
 with (obj) {
-__p += 'import Hello from \'./1111.tpl.html\'\r\n\r\n<div>world</div>\r\n<Hello>loader has worked!';
+__p += 'import Hello from \'./hello.tpl.html\'\r\n\r\n<div>world</div>\r\n<Hello>';
 
 }
 return __p
